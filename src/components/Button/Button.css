@@ -1,0 +1,23 @@
+.button {
+  border: 1px solid #000;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+}
+
+.button:hover {
+  background-color: #f2f2f2; /* Cor de fundo ao passar o mouse */
+}
+
+.button:disabled {
+  background-color: #ccc; /* Cor de fundo quando desativado */
+  cursor: not-allowed; /* Altera o cursor quando desativado */
+  border: 1px solid #999; /* Altera a borda quando desativado */
+  color: #999; /* Altera a cor do texto quando desativado */
+}
